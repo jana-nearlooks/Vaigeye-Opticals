@@ -6630,6 +6630,12 @@ Footer Section Style Start
     padding-left: 40px;
 }
 
+@media screen and (max-width: 1024px){
+    .ls-fullscreen-wrapper{
+        display: none ;
+    }
+    }
+    
 @media screen and (min-width:400px) {
     .product-list .product-wrapper .product-image,
     .product-list .product-wrapper .product-info {
@@ -7466,3 +7472,4 @@ Footer Section Style Start
         width: 300px;
     }
 }
+
