@@ -512,7 +512,7 @@ Global Css End
   vertical-align: middle;
   cursor: pointer;
   padding: 18px 30px 18px;
-  background-color: #000000;
+  background-color: #000000d7;
   color: #ffffff;
   font-family: "Jost", sans-serif;
   font-weight: 500;
@@ -3397,8 +3397,8 @@ Product badge
   visibility: hidden;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  -webkit-transform: translateY(30px);
-          transform: translateY(30px);
+  /* -webkit-transform: translateY(30px);
+          transform: translateY(30px); */
 }
 .addBtn:hover {
   background: #ffffff;
@@ -3410,7 +3410,7 @@ Product badge
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
 }
-.product-item:hover .addBtn {
+.product-item .addBtn {
   opacity: 1;
   visibility: visible;
   -webkit-transform: translateY(0px);
@@ -6961,7 +6961,11 @@ newsLetter-one
 
 @media (max-width: 992px) {
   .addBtn {
-    display: none !important;
+    background-color: transparent;
+    color: black;
+    padding: 3px;
+    font-size: 5px !important;
+    /* display: none !important; */
   }
 }
 .productNav .font-16 {
@@ -12449,6 +12453,23 @@ Bottom to top Css
 .text p{
   text-align: justify;
 }
+
+
+
+.newsletter-input-group input{
+  margin-bottom: 3%;
+}
+
+.newsletter-input-group select{
+  margin-bottom: 3%;
+  border-radius: 0px;
+padding: 3%;
+border: 1px solid #ECE2D7;
+width: 100%;
+}
+
+
+
 /***
 =====================================================
 Bottom to top Css 

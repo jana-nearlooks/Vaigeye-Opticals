@@ -364,7 +364,7 @@ jQuery(function ($) {
 
   $(window).on("load", function () {
     /****======  Newslettser Modal  ======*******/
-    //$("#newsletter-modal").modal("show");
+    $("#newsletter-modal").modal("show");
 
     /****======  Preloader Js  ======*******/
     function pre_loader() {
