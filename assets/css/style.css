@@ -627,7 +627,7 @@ Global Css End
   left: 0px;
   bottom: 0px;
   right: 0px;
-  background: #f69c63;
+  background:#0BB348 ;
   z-index: -1;
   -webkit-transform: scale(0, 1);
   transform: scale(0, 1);
@@ -648,7 +648,7 @@ Global Css End
 
 .btn--primary:hover {
   color: #ffffff;
-  border-color: #f69c63;
+  border-color: #0BB348;
 }
 
 /*** 
@@ -684,7 +684,7 @@ Global Css End
   left: 0px;
   bottom: 0px;
   right: 0px;
-  background: #f69c63;
+  background: #0BB348;
   z-index: -1;
   -webkit-transform: scale(0, 1);
   transform: scale(0, 1);
@@ -2473,7 +2473,7 @@ QuickView Popup Start
           transform: translateY(-50%);
   height: 30px;
   width: 30px;
-  background-color: #FF805D;
+  background-color:#0BB348;
   border: 1px solid transparent;
   color: #fff;
   display: -webkit-box;
@@ -2554,7 +2554,7 @@ QuickView Popup Start
   width: 80px;
 }
 .qvSliderNavBox .tab-nav.ui-tabs-active {
-  border: 1px solid #FF805D;
+  border: 1px solid  #0BB348;
 }
 
 /*==============================================
@@ -2596,7 +2596,7 @@ QuickView Popup Start
 }
 
 .pswitch-item.active {
-  border: 1px solid #FC6759;
+  border: 1px solid  #0BB348;
 }
 
 .pswitch-item {
@@ -2882,7 +2882,7 @@ product-quantity
           transform: translateX(200%);
 }
 .animationCloser:hover .animationLine::before, .animationCloser:hover .animationLine::after {
-  background-color: #FC6759;
+  background-color: #0BB348;
 }
 .animationCloser:hover .animationLine::before {
   -webkit-transform: translateX(0);
@@ -12470,6 +12470,34 @@ width: 100%;
 
 
 
+.button{
+  background-color: #0BB348;
+  width:372px;
+  height:50px
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) { 
+  .button{
+    background-color: #0BB348;
+    width:240px;
+    height:50px
+  }
+}
+.button1{
+  background-color: #0BB348;
+  width:165px;
+  height:50px;
+  border-radius: 5px;
+}
+.terms{
+  color:#0BB348;
+}
+.symbol{
+  color:#0BB348;
+  font-weight:bolder;
+}
+.terms1 h5{
+  font-weight: 600;
+}
 /***
 =====================================================
 Bottom to top Css 

@@ -375,3 +375,42 @@ jQuery(function ($) {
 
   });
 }(jQuery));
+
+/* form validation */
+        var cname = document.getElementById("name");
+        var cemail = document.getElementById("email");
+        var cwphone = document.getElementById("wphone");
+        var cphone = document.getElementById("phoneno");
+        var cdate = document.getElementById("date");
+        var btn = document.getElementById("btn");
+        var cglasstype=document.getElementById("glasstype")
+
+        cname.addEventListener("input", disablebtn);
+        cemail.addEventListener("input", disablebtn);
+        cphone.addEventListener("input", disablebtn);
+        cwphone.addEventListener("input", disablebtn);
+        cdate.addEventListener("input", disablebtn);
+        cglasstype.addEventListener("change",disablebtn)
+
+        function disablebtn() {
+          var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          var phonePattern = /^\d{10}$/;
+          var wphonePattern = /^\d{10}$/;
+    
+        if (
+            cname.value.trim() !== "" &&
+            cemail.value.trim() !== "" &&
+            emailPattern.test(cemail.value.trim()) &&
+            cphone.value.trim() !== "" &&
+            phonePattern.test(cphone.value.trim()) &&
+            cwphone.value.trim() !== "" &&
+            cdate.value.trim() !== "" &&
+            wphonePattern.test(cwphone.value.trim())&&
+            cglasstype.value.trim() !== ""
+        
+        ) {
+            btn.disabled = false;
+        } else {
+            btn.disabled = true;
+        }
+}
